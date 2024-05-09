@@ -1,6 +1,6 @@
 # Week1: Welcome( );
-*Written and Directed by Himanshu Gangwal.*
-**Hello :)**
+*Written and Directed by Himanshu Gangwal.*   
+**Hello :)**    
 We will look at some of the very basic functions and implementations of an operating system.  However, before diving deep into the code, I would like you to know the basics of assembly. We are not going write programs in ***nasm*** but it would help you understand the code better. Apart for this the learning curve is not very steep if you know the workings of a CPU. (primitive knowledge about registers and memory access would suffice) * 
 
 ## M[i](https://github.com/mig-hub/mikeOS)k[e](https://github.com/mig-hub/mikeOS)O[S](https://github.com/mig-hub/mikeOS)
