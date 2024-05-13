@@ -27,6 +27,7 @@ these are some introductory references (in order of resourcefulness):
 You do not need to complete all the exercises here; just try to get an intuition of the way in which *NASM* programs are written. A better way to learn is to read the code and google for what different constructs in the language do. In order to understand the workings of MikeOS, you will have to read a lot of code. The exercises will be quite simple if you know the codebase well.
 
 > # : )
+> Next week we'll explore: how to add a new command to the ***CLI***.
 
  
  
