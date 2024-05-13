@@ -18,7 +18,7 @@ This is the best fit for our purpose, as it is quite ***BASIC*** (intends foresh
 This, being an introduction, is quite simple. All you need to do is add a suitable introduction to your command-line interface in MikeOS.
 ![before intro](https://github.com/hotramen-hellfire/playground/blob/main/mikeOS/grimgur/w1~intro.png?raw=true)
 add an intro of your choice:
-![added intro](https://github.com/hotramen-hellfire/playground/blob/main/mikeOS/grimgur/w1~intro2.png?raw=true)
+![added intro](https://github.com/hotramen-hellfire/playground/blob/main/mikeOS/grimgur/w1~intro2.png?raw=true)   
 You can solve this without knowing *NASM* completely. Take this as a puzzle.
 ## NASM
 these are some introductory references (in order of resourcefulness):
