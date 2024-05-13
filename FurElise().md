@@ -2,7 +2,7 @@
 
 This week we'll look at how the (CLI) commands are implemented in MikeOS. We'll also write a simple command for our operating system which will use existing system calls.
 
-> [BIBLE](https://mikeos.sourceforge.net/handbook-appdev-asm.html)  
+> [BIBLE](https://mikeos.sourceforge.net/handbook-appdev-asm.html) (nasm)  
 > This is quite an important text for you.
 
 ## TELLJOKE
