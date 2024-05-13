@@ -1,6 +1,6 @@
  # Week2: FurElise(♬);
 
-This week we'll look at how the commands are implemented in MikeOS. We'll also write a simple command for our operating system which will use existing system calls.
+This week we'll look at how the (CLI) commands are implemented in MikeOS. We'll also write a simple command for our operating system which will use existing system calls.
 
 > [BIBLE](https://mikeos.sourceforge.net/handbook-appdev-asm.html)  
 > This is quite an important text for you.
