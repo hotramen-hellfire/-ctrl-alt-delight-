@@ -36,7 +36,7 @@ This is the boss for today, now after writing the joke you'll have to ~~play~~ *
 
 ###  ♬Aftermath
 
-> - [ Shrill Music Warning ⚠️ ]You can see the final product in action here:  [DEMONSTRATION](https://drive.google.com/file/d/1zWu1wiq_luodqhHBkEF_QNK_QHpoLsRG/view?usp=sharing)
+> - [ Don't use headphones ⚠️ ] You can see the final product in action here:  [DEMONSTRATION](https://drive.google.com/file/d/1zWu1wiq_luodqhHBkEF_QNK_QHpoLsRG/view?usp=sharing)
 > - Choose a tone on your own or create one, so that the these the assignments are fun to check. :)
 > # : )
 > Next week we'll explore: ***syscalls*** in MikeOS.
