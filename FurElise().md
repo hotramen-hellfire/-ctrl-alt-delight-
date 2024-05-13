@@ -28,6 +28,7 @@ We'll extend the functionality of the `TELLJOKE` command, this time it is expect
 This is the boss for today, now after writing the joke you'll have to ~~play~~ ***code*** some music. However, the problem statement is quite simple you'll have to tinker around a bit.
  - Use your BIBLE to find out how does music work in MikeOS. I hope that you have fixed you `-soundhw invalid option` warning by now, as described in `Welcome()`. 
  - You'll need this: [FREQUENCIES](https://muted.io/note-frequencies/).
+ - Keep all your `ax` arguements > 2000, this improves the sound quality.
  - Rather than coding all the notes by yourself, you can:
 	 - Figure out the notes for the music you want to play. For Fur Elise you can go with the iconic ED#ED#EBDCA.
 	 - Write the code for the some of the starting nodes as to create a repetitive structure where you just have to change the frequency and the time for which this note has to be played and use this to write a function. (Do not forget to preserve registers that you are changing in the function, if any)
@@ -35,7 +36,7 @@ This is the boss for today, now after writing the joke you'll have to ~~play~~ *
 
 ###  ♬Aftermath
 
-> - [ Shrill Music Warning ⚠️ ]You can see the final product in action here:  [DEMONSTRATION](https://drive.google.com/file/d/1YAuRppt9UcLZk5KnYTFFGU9SpTFeSQPw/view?usp=sharing)
+> - [ Shrill Music Warning ⚠️ ]You can see the final product in action here:  [DEMONSTRATION](https://drive.google.com/file/d/1zWu1wiq_luodqhHBkEF_QNK_QHpoLsRG/view?usp=sharing)
 > - Choose a tone on your own or create one, so that the these the assignments are fun to check. :)
 > # : )
 > Next week we'll explore: ***syscalls*** in MikeOS.
