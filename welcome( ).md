@@ -16,7 +16,7 @@ This is the best fit for our purpose, as it is quite ***BASIC*** (intends foresh
  *`qemu-system-i386 -audiodev pa,id=audio0 -machine pcspk-audiodev=audio0 -drive format=raw,file=disk_images/mikeos.flp` is the final command that I am using.* We're done with the set up :)
 ## Activity: "My Name Is"
 This, being an introduction, is quite simple. All you need to do is add a suitable introduction to your command-line interface in MikeOS.
-![before intro](https://github.com/hotramen-hellfire/playground/blob/main/mikeOS/grimgur/w1~intro.png?raw=true)
+![before intro](https://github.com/hotramen-hellfire/playground/blob/main/mikeOS/grimgur/w1~intro.png?raw=true)  
 add an intro of your choice:
 ![added intro](https://github.com/hotramen-hellfire/playground/blob/main/mikeOS/grimgur/w1~intro2.png?raw=true)   
 You can solve this without knowing *NASM* completely. Take this as a puzzle.
