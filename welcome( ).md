@@ -1,6 +1,7 @@
-# Week1: Welcome( );
-*Written and Directed by Himanshu Gangwal.*   
-**Hello :)**    
+> # Week1: Welcome( );
+> *Written and Directed by Himanshu Gangwal.*
+> **Hello :)**
+
 We will look at some of the very basic functions and implementations of an operating system.  However, before diving deep into the code, I would like you to know the basics of assembly. We are not going write programs in ***nasm*** but it would help you understand the code better. Apart for this the learning curve is not very steep if you know the workings of a CPU. (primitive knowledge about registers and memory access would suffice) * 
 
 ## M[i](https://github.com/mig-hub/mikeOS)k[e](https://github.com/mig-hub/mikeOS)O[S](https://github.com/mig-hub/mikeOS)
@@ -14,5 +15,16 @@ This is the best fit for our purpose, as it is quite ***BASIC*** (foreshadowing 
  - Now run `./test-linux.sh`, it should give an `-soundhw` error. You can simply remove `-soundhw pcspk` from the command in the script, as believe me listening to ***Kendrick*** is much better. *Fix-> [see here](https://www.reddit.com/r/qemu_kvm/comments/xte6kq/how_do_i_use_pcspk_now_that_soundhw_is_deprecated/). You can also remove the unidentified file system warning-> [here](https://unix.stackexchange.com/questions/276480/booting-a-raw-disk-image-in-qemu).*
 
  *`qemu-system-i386 -audiodev pa,id=audio0 -machine pcspk-audiodev=audio0 -drive format=raw,file=disk_images/mikeos.flp` is the final command that I am using.* We're done with the set up :)
+## Activity: "My Name Is"
+This, being an introduction, is quite simple. All you need to do is add a suitable introduction to your command-line interface in MikeOS.
+![before intro](https://github.com/hotramen-hellfire/playground/blob/main/mikeOS/grimgur/w1~intro.png?raw=true)
+add an intro of your choice:
+![added intro](https://github.com/hotramen-hellfire/playground/blob/main/mikeOS/grimgur/w1~intro2.png?raw=true)
+You can solve this without knowing *NASM* completely. Take this as a puzzle.
+## NASM
+these are some introductory references (in order of resourcefulness):
+[CREATECODE](https://cratecode.com/info/nasm)
+[ASMTUTOR](https://asmtutor.com/)
+You do not need to complete all the exercises here; just try to get an intuition of the way in which *NASM* programs are written. A better way to learn is to read the code and google for what different constructs in the language do. In order to understand the workings of MikeOS, you will have to read a lot of code. The exercises will be quite simple if you know the codebase well.
 
-#todo _ nasm and into message?
+> # : )
