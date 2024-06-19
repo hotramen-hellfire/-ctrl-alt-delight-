@@ -16,7 +16,7 @@ This is the best fit for our purpose, as it is quite ***BASIC*** (intends foresh
 > *Fix-> [see here](https://www.reddit.com/r/qemu_kvm/comments/xte6kq/how_do_i_use_pcspk_now_that_soundhw_is_deprecated/).  
 > You can also remove the unidentified file system warning-> [here](https://unix.stackexchange.com/questions/276480/booting-a-raw-disk-image-in-qemu).*
 
- *`qemu-system-i386 -audiodev pa,id=audio0 -machine pcspk-audiodev=audio0 -drive format=raw,file=disk_images/mikeos.flp` is the final command that I am using.* We're done with the set up :)
+ *Thus, `qemu-system-i386 -audiodev pa,id=audio0 -machine pcspk-audiodev=audio0 -drive format=raw,file=disk_images/mikeos.flp` is the final command that I am using.* We're done with the set up :)
 ## ♬ Activity: "My Name Is" ♪
 This, being an introduction, is quite simple. All you need to do is add a suitable introduction to your command-line interface in MikeOS.
 ![before intro](https://github.com/hotramen-hellfire/playground/blob/main/mikeOS/grimgur/w1~intro.png?raw=true)  
