@@ -12,7 +12,9 @@ This is the best fit for our purpose, as it is quite ***BASIC*** (intends foresh
  - You need to install the following dependencies as it is evident from the `build-linux.sh` script, viz. `nasm`, `mkisofs`, `mkdosfs`. Use your package manager to install these, you can use a quick google search for the package names. *Note: `mkisofs` and `mkdosfs` are a part of `cdrkit` and can be installed as `pacman -Sy cdrkit`  if `pacman` is your package manager.* (I am using [Mabox Linux](https://distrowatch.com/table.php?distribution=mabox) in case you were wondering)
  - Now you can run the `./build-linux.sh` which will create the required image.  *Read: `disk_images/README.TXT` for info on the image.*
  - Now we need to install `qemu-system-i386` as required to emulate the OS image. `sudo apt install qemu-system` or `sudo pacman -Sy qemu-full`, will suffice.
- - Now run `./test-linux.sh`, it should give an `-soundhw` error. You can simply remove `-soundhw pcspk` from the command in the script, as believe me listening to ***Kendrick*** is much better.   *Fix-> [see here](https://www.reddit.com/r/qemu_kvm/comments/xte6kq/how_do_i_use_pcspk_now_that_soundhw_is_deprecated/). You can also remove the unidentified file system warning-> [here](https://unix.stackexchange.com/questions/276480/booting-a-raw-disk-image-in-qemu).*
+ - Now run `./test-linux.sh`, it should give an `-soundhw` error. You can simply remove `-soundhw pcspk` from the command in the script, as believe me listening to ***Kendrick*** is much better.
+> *Fix-> [see here](https://www.reddit.com/r/qemu_kvm/comments/xte6kq/how_do_i_use_pcspk_now_that_soundhw_is_deprecated/).
+> You can also remove the unidentified file system warning-> [here](https://unix.stackexchange.com/questions/276480/booting-a-raw-disk-image-in-qemu).*
 
  *`qemu-system-i386 -audiodev pa,id=audio0 -machine pcspk-audiodev=audio0 -drive format=raw,file=disk_images/mikeos.flp` is the final command that I am using.* We're done with the set up :)
 ## ♬ Activity: "My Name Is" ♪
