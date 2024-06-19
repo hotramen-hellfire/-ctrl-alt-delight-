@@ -21,9 +21,9 @@ add an intro of your choice:
 ![added intro](https://github.com/hotramen-hellfire/playground/blob/main/mikeOS/grimgur/w1~intro2.png?raw=true)   
 You can solve this without knowing *NASM* completely. Take this as a puzzle.
 ## NASM
-these are some introductory references (in order of resourcefulness):
-[CREATECODE](https://cratecode.com/info/nasm)
-[ASMTUTOR](https://asmtutor.com/)
+these are some introductory references (in order of resourcefulness):  
+[CREATECODE](https://cratecode.com/info/nasm)  
+[ASMTUTOR](https://asmtutor.com/)  
 You do not need to complete all the exercises here; just try to get an intuition of the way in which *NASM* programs are written. A better way to learn is to read the code and google for what different constructs in the language do. In order to understand the workings of MikeOS, you will have to read a lot of code. The exercises will be quite simple if you know the codebase well.
 
 > # : )
