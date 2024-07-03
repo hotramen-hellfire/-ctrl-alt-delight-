@@ -2,7 +2,7 @@
 This week we'll closely inspect the abstraction provided by the kernel, i.e. how are userspace programs handled in MikeOS. How does the interface look for a user, how can he add and run programs of his own? 
 To answer these questions, we'll try dissecting the implementations of ***syscalls*** in MikeOS, and then proceed to write one of our own.
 
->[BIBLE](https://mikeos.sourceforge.net
+> [BIBLE](https://mikeos.sourceforge.net
 >/handbook-sysdev.html) (sysdev)
 > This is quite an important text for you.
 ## Userspace Programs
