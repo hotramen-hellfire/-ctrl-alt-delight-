@@ -6,7 +6,7 @@ This week we'll look at how the (CLI) commands are implemented in MikeOS. We'll 
 > This is quite an important text for you.
 
 ## TELLJOKE
-###  ♙  Level 1 
+###  ♙  Level 1 [+5xp]
 We'll implement a basic command `TELLJOKE` that prints a joke to the terminal.
 
  - You only need to modify the `cli.asm` file. Try tracing other similar commands like `HELP`, `TIME` to get some intuition.
@@ -14,7 +14,7 @@ We'll implement a basic command `TELLJOKE` that prints a joke to the terminal.
  - While exploring the `TIME` command, try to find out:
  - How is the time string fetched?? Do you find anything peculiar about some functions like `os_print_string` and `os_get_time_string` with respect to the other functions in the code not prefixed by `os_*` ?
  - Where are these functions declared?
-###  ♖ Level 2
+###  ♖ Level 2 [+5xp]
 We'll extend the functionality of the `TELLJOKE` command, this time it is expected to print a joke randomly from a predefined set of jokes.
 
  - You only need to modify the `cli.asm` file. Try tracing other similar commands like `HELP`, `TIME` to get some intuition.
@@ -22,7 +22,7 @@ We'll extend the functionality of the `TELLJOKE` command, this time it is expect
  - As you are new to writing in assembly, you might want to lookup
     - How to declare strings in *nasm*?
     - How to declare an array in *nasm* with elements of specific sizes?
-###  ♚ Level 3 (BOSS)
+###  ♚ Level 3 (BOSS) [+10xp]
 > WARNING !!: Please do not use headphones while coding this up!! The sound produced might be quite shrill if you mess up. Use your PC's speakers with low volume.  
 
 This is the boss for today, now after writing the joke you'll have to ~~play~~ ***code*** some music. However, the problem statement is quite simple you'll have to tinker around a bit.
